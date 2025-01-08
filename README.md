@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: run action
         id: run_action
-        uses: PaulRitter/github-action-create-commit-parent-submodule@v1
+        uses: PaulRitter/github-action-create-commit-parent-submodule@v2.0
         with:
           github_token: ${{ secrets.GH_ACTIONS_TOKEN }}
           parent_repository: org/example-repository
